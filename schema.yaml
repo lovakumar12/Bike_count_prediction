@@ -1,0 +1,16 @@
+columns:
+  Hour: int
+  Temperature(°C): float
+  Humidity(%): int
+  Wind speed (m/s): float
+  Visibility (10m): int
+  Dew point temperature(°C): float
+  Solar Radiation (MJ/m2): float
+  Rainfall(mm): float
+  Snowfall (cm): float
+  Seasons: category
+  Holiday: category
+  Functioning Day: category
+  Rented Bike Count: int
+
+target_column: Rented Bike Count

@@ -1,0 +1,21 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_data: data/bike_rental.csv
+  local_data_file: artifacts/data_ingestion/bike_rental.csv
+
+data_validation:
+  root_dir: artifacts/data_validation
+  schema_dir: schema.yaml
+  status_file: artifacts/data_validation/status.txt
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  transformed_data_dir: artifacts/data_transformation/transformed_data
+  preprocessed_object_file: artifacts/data_transformation/preprocessor.pkl
+
+model_trainer:
+  root_dir: artifacts/model_trainer
+  trained_model_dir: artifacts/model_trainer/trained_model
+  model_file: artifacts/model_trainer/model.pkl
